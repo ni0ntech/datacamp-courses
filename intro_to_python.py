@@ -17,12 +17,12 @@ upstairs = areas[6:]
 x = ["a", "b", "c", "d"]
 
 
-print(areas[1])
-print(areas[-1])
-print(areas[5])
-print(downstairs)
-print(upstairs)
-print(house[-1][1])
+#print(areas[1])
+#print(areas[-1])
+#print(areas[5])
+#print(downstairs)
+#print(upstairs)
+#print(house[-1][1])
 
 
 
@@ -91,7 +91,7 @@ r_height = np.round(np.random.normal(1.75, 0.20, 5000), 2)
 r_weight = np.round(np.random.normal(60.32, 15, 5000), 2)
 np_city = np.column_stack((r_height, r_weight))
 
-print(np.mean(np_city[:, 0]))
-print(np.median(np_city[:, 0]))
+#print(np.mean(np_city[:, 0]))
+#print(np.median(np_city[:, 0]))
 #print(np.corrcoef(np_city[:, 0], np_city[:, 1]))
 #print(np.std(np_city[:, 0]))
